@@ -13,9 +13,9 @@ export default function WhereIHaveVolunteered() {
   const GetDescription = () => {
     switch (DescriptionJob) {
       default:
-        return <IEEECUSB />;
-      case "CURT":
         return <CURT />;
+      case "IEEE CUSB":
+        return <IEEECUSB />;
       case "IEEE EMBS CUSB":
         return <IEEEMBS />;
       case "IEEE YP":
@@ -100,51 +100,51 @@ const CompaniesBar = props => {
         <div className="flex flex-row md:flex-col">
 
           <CompanyButton
-              ButtonOrderOfcompanyNameBackgroundColorGreen={2}
+              ButtonOrderOfcompanyNameBackgroundColorGreen={0}
               CompanyName="Cairo University Racing Team"
               BarPosition={15}
               BarAvobePosition={257}
               DescriptionJob="CURT"
+              CompanyNameBackgroundColorGreen={[true,false, false, false, false]}
+              setDescriptionJob={props.setDescriptionJob}
+          />
+
+          <CompanyButton
+              ButtonOrderOfcompanyNameBackgroundColorGreen={1}
+              CompanyName="IEEE EMBS Cairo University SB"
+              BarPosition={75}
+              BarAvobePosition={513}
+              DescriptionJob="IEEE EMBS CUSB"
+              CompanyNameBackgroundColorGreen={[false, true, false, false, false ]}
+              setDescriptionJob={props.setDescriptionJob}
+          />
+
+          <CompanyButton
+              ButtonOrderOfcompanyNameBackgroundColorGreen={2}
+              CompanyName="IEEE Cairo University SB"
+              BarPosition={140}
+              BarAvobePosition={1}
+              DescriptionJob="IEEE CUSB"
               CompanyNameBackgroundColorGreen={[false,false, true, false, false]}
+              setDescriptionJob={props.setDescriptionJob}
+          />
+          <CompanyButton
+              ButtonOrderOfcompanyNameBackgroundColorGreen={3}
+              CompanyName="IEEE YP Egypt"
+              BarPosition={195}
+              BarAvobePosition={129}
+              DescriptionJob="IEEE YP"
+              CompanyNameBackgroundColorGreen={[false,false, false, true, false]}
               setDescriptionJob={props.setDescriptionJob}
           />
 
           <CompanyButton
               ButtonOrderOfcompanyNameBackgroundColorGreen={4}
-              CompanyName="IEEE EMBS Cairo University SB"
-              BarPosition={75}
-              BarAvobePosition={513}
-              DescriptionJob="IEEE EMBS CUSB"
-              CompanyNameBackgroundColorGreen={[false, false, false, false, true ]}
-              setDescriptionJob={props.setDescriptionJob}
-          />
-
-          <CompanyButton
-              ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-              CompanyName="IEEE Cairo University SB"
-              BarPosition={140}
-              BarAvobePosition={1}
-              DescriptionJob="IEEE CUSB"
-              CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
-              setDescriptionJob={props.setDescriptionJob}
-          />
-          <CompanyButton
-              ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-              CompanyName="IEEE YP Egypt"
-              BarPosition={195}
-              BarAvobePosition={129}
-              DescriptionJob="IEEE YP"
-              CompanyNameBackgroundColorGreen={[false,true, false, false, false, false]}
-              setDescriptionJob={props.setDescriptionJob}
-          />
-
-          <CompanyButton
-              ButtonOrderOfcompanyNameBackgroundColorGreen={3}
               CompanyName="CUFE Student Club"
               BarPosition={240}
               BarAvobePosition={385}
               DescriptionJob="CUFE SC"
-              CompanyNameBackgroundColorGreen={[false, false, false, true, false ]}
+              CompanyNameBackgroundColorGreen={[false, false, false, false, true ]}
               setDescriptionJob={props.setDescriptionJob}
           />
         </div>
