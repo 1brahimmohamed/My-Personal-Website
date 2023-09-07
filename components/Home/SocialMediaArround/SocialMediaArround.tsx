@@ -44,33 +44,33 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
         </div>
       </motion.div>
 
-      {/* // ? Email Address bar               */}
-      <motion.div
-        initial={{ y: "170%" }}
-        animate={{ y: "0%" }}
-        // ! change delay from 0 to 11
-        transition={{ y: { delay: props.finishedLoading ? 0 : 6, duration: props.finishedLoading ? 0 : 0.5 } }}
-        className="z-10 fixed bottom-0 -right-10 hidden lg:flex flex-row items-center justify-between"
-      >
-        <div className="flex flex-col space-y-24 justify-center items-center">
-          {/* Open Email on click */}
-          <motion.div
-            initial={{ rotate: 90 }}
-            whileHover={{
-              y: -3,
-              transition: { y: { duration: 0.1 }, rotate: { duration: 0 } },
-            }}
-            className=""
-          >
-            <a href="mailto:ibrahimm@ieee.org" target={"_blank"} rel="noreferrer">
-              <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
-                Send me <span className="text-AAsecondary"></span><span className="text-AAsecondary">an email</span></span>
-            </a>
-          </motion.div>
+      {/*/!* // ? Email Address bar               *!/*/}
+      {/*<motion.div*/}
+      {/*  initial={{ y: "170%" }}*/}
+      {/*  animate={{ y: "0%" }}*/}
+      {/*  // ! change delay from 0 to 11*/}
+      {/*  transition={{ y: { delay: props.finishedLoading ? 0 : 6, duration: props.finishedLoading ? 0 : 0.5 } }}*/}
+      {/*  className="z-10 fixed bottom-0 -right-10 hidden lg:flex flex-row items-center justify-between"*/}
+      {/*>*/}
+      {/*  <div className="flex flex-col space-y-24 justify-center items-center">*/}
+      {/*    /!* Open Email on click *!/*/}
+      {/*    <motion.div*/}
+      {/*      initial={{ rotate: 90 }}*/}
+      {/*      whileHover={{*/}
+      {/*        y: -3,*/}
+      {/*        transition: { y: { duration: 0.1 }, rotate: { duration: 0 } },*/}
+      {/*      }}*/}
+      {/*      className=""*/}
+      {/*    >*/}
+      {/*      <a href="mailto:ibrahimm@ieee.org" target={"_blank"} rel="noreferrer">*/}
+      {/*        <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">*/}
+      {/*          Send me <span className="text-AAsecondary"></span><span className="text-AAsecondary">an email</span></span>*/}
+      {/*      </a>*/}
+      {/*    </motion.div>*/}
 
-          <div className="h-24 w-0.5 bg-gray-400"></div>
-        </div>
-      </motion.div>
+      {/*    <div className="h-24 w-0.5 bg-gray-400"></div>*/}
+      {/*  </div>*/}
+      {/*</motion.div>*/}
     </>
   );
 }
