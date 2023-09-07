@@ -9,20 +9,20 @@ export default function Neureveal() {
     //   keywords: ["Alchemy", "Wagmi", "Web3.js", "Moralis", "Ethers.js"],
     // },
     {
-      text: "Studied and transform data science projects",
+      text: "Studied and transform data science projects.",
       keywords: ["implementation", "data science"],
     },
     {
       text: "Research and implement appropriate machine learning algorithms for computer vision application such as object" +
-          " detection, key point detection, object segmentation & anomaly detection",
+          " detection, key point detection, object segmentation & anomaly detection.",
       keywords: ["Machine Learning", "computer vision", "object detection", "key point detection", "object segmentation", "anomaly detection"],
     },
     {
-      text: "Support MLOps efforts Design machine learning systems with optimized system pipeline design, training and runtime performance",
+      text: "Support MLOps efforts through designing machine learning systems with optimized system pipeline design, training and runtime performance.",
       keywords: ["MLOps","pipeline design", "training", "runtime performance"],
     },
     {
-      text: " Apply Image processing techniques on medical images and apply statistical analysis.",
+      text: " Apply image processing techniques on medical images and apply statistical analysis.",
       keywords: ["Image processing", "medical images", "statistical analysis"],
     }
   ];

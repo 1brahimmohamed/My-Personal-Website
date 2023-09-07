@@ -5,7 +5,7 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function SiemensEDA() {
   const tasks = [
     {
-      text: "Programing Microcontroller fundamentals (CPU architecture, Memory, startup, linker script, bootloader,compilation process and interrupts).",
+      text: "Programing Microcontroller fundamentals (CPU architecture, Memory, startup, linker script, bootloader, compilation process and interrupts).",
       keywords: ["CPU architecture", "compilation process", "interrupts"],
     },
     {
@@ -13,11 +13,11 @@ export default function SiemensEDA() {
       keywords: ["debugging tools"],
     },
     {
-      text: "Getting started with DevOps",
+      text: "Getting started with DevOps.",
       keywords: ["DevOps"],
     },
     {
-      text: "Learning about RTOS fundamentals and AUTOSAR OS/Layers",
+      text: "Learning about RTOS fundamentals and AUTOSAR OS/Layers.",
       keywords: ["RTOS", "AUTOSAR OS/Layers"],
     },
   ];

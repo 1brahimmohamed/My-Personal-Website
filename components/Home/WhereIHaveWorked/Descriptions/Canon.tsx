@@ -13,7 +13,7 @@ export default function Canon() {
       keywords: ["Ultrasound"],
     },
     {
-      text: "Dived in XRays and Ultrasound machines Service Engineering reading the service, installation manuals.",
+      text: "Dived in XRay and Ultrasound machines Service Engineering reading the service & installation manuals.",
       keywords: ["Xray", "Ultrasound", "manuals"],
     },
   ];

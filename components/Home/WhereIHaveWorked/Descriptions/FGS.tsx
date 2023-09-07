@@ -4,15 +4,15 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function FGS() {
   const tasks = [
     {
-      text: "Learned about Robotic Process Automation (RPA) and how to automate business processes",
+      text: "Learned about Robotic Process Automation (RPA) and how to automate business processes.",
       keywords: ["Robotic Process Automation"],
     },
     {
-      text: "Got a deep understanding of Automation annoyware robotic interface (AARI) and how to use it to automate business processes",
+      text: "Got a deep understanding of Automation annoyware robotic interface (AARI) and how to use it to automate business processes.",
       keywords: ["Automation annoyware robotic interface"],
     },
     {
-      text: "Had a good understanding of the different types of Software Development Cycle for Production",
+      text: "Had a good understanding of the different types of Software Development Cycle for Production.",
       keywords: ["Software Development Cycle for Production"],
     },
   ];
