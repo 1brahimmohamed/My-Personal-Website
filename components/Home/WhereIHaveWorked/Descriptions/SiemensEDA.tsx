@@ -5,16 +5,20 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function SiemensEDA() {
   const tasks = [
     {
-      text: "Spearhead & implemented a new design user workflow system for the Frond-End Architecture of a NFT Marketplace.",
-      keywords: ["NFT Marketplace"],
+      text: "Programing Microcontroller fundamentals (CPU architecture, Memory, startup, linker script, bootloader,compilation process and interrupts).",
+      keywords: ["CPU architecture", "compilation process", "interrupts"],
     },
     {
-      text: "Worked with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Next.js/React, AWS and Vercel.",
-      keywords: ["Next.js/React", "AWS", "Vercel"],
+      text: "Dealing with different debugging tools.",
+      keywords: ["debugging tools"],
     },
     {
-      text: "Interfaced with developers on a daily basis, providing technological expertise.",
-      keywords: [],
+      text: "Getting started with DevOps",
+      keywords: ["DevOps"],
+    },
+    {
+      text: "Learning about RTOS fundamentals and AUTOSAR OS/Layers",
+      keywords: ["RTOS", "AUTOSAR OS/Layers"],
     },
   ];
 

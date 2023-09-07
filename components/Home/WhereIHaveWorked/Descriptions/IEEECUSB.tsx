@@ -2,19 +2,23 @@ import React from "react";
 import ArrowIcon from "../../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function SuperBerry() {
+export default function IEEECUSB() {
   const tasks = [
     {
-      text: "Designed and Built user-friendly customizable static web application using ReactJS, TailwindCSS v1, and TypeScript.",
-      keywords: ["ReactJS", "TailwindCSS v1", "TypeScript"],
+      text: "Leading a team of 16 Committee & 290 member",
+      keywords: ["Leading"],
     },
     {
-      text: "upgraded the web application for better SEO with Next.js and exploiting the server-side rendering benefits.",
-      keywords: ["Next.js"],
+      text: "Prepared the necessary reports for IEEE Student Services: Annual Plan & Annual Report",
+      keywords: ["Annual Plan", "Annual Report"],
     },
     {
-      text: "Provided technical support and troubleshoots errors and/or problems with web based applications.",
-      keywords: ["technical support","troubleshoots"],
+      text: "Arranged for the election of new officers & Ensured continuity",
+      keywords: ["continuity"],
+    },
+    {
+      text: "Collaborated with IEEE Egypt Section and Region Officers that enhanced my leadership skills",
+      keywords: ["leadership skills"],
     },
   ];
 
@@ -24,10 +28,18 @@ export default function SuperBerry() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ Web App</span>
+            Chairman & <span className="text-AAsecondary">CEO</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">June - August 2020</span>
+          <span className="font-mono text-xs text-gray-500">Aug 2021 - Aug 2022</span>
+          <span
+              className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
+              // set text size on style attribute
+              style={{ fontSize: "0.6rem" }}
+              onClick={() => window.open("https://www.ieeecusb.org", "_blank")}
+          >
+            www.ieeecusb.org
+          </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
           {/* Tasks Description 1 */}

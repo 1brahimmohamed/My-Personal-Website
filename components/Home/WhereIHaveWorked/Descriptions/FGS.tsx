@@ -4,16 +4,16 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function FGS() {
   const tasks = [
     {
-      text: "Leading the development of the NFT Marketplace v2 for the Platform FeverTokens.",
-      keywords: ["NFT Marketplace v2"],
+      text: "Learned about Robotic Process Automation (RPA) and how to automate business processes",
+      keywords: ["Robotic Process Automation"],
     },
     {
-      text: "Worked with a team of six developers to build a temporary NFT Marketplace platform for VivaTech2022 event, an ambitious startup originating from France,Paris.",
-      keywords: ["VivaTech2022 event"],
+      text: "Got a deep understanding of Automation annoyware robotic interface (AARI) and how to use it to automate business processes",
+      keywords: ["Automation annoyware robotic interface"],
     },
     {
-      text: "Interacted with the blockchain & Smart Contracts to build the new FeverTokens Platform.",
-      keywords: ["blockchain & Smart Contracts"],
+      text: "Had a good understanding of the different types of Software Development Cycle for Production",
+      keywords: ["Software Development Cycle for Production"],
     },
   ];
   return (
