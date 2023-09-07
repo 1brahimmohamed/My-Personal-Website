@@ -19,7 +19,10 @@ export default function GetInTouch() {
       <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85"><a href={"https://www.github.com/1brahimmohamed"}>View More Projects</a></span>
       <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
         I&apos;m Always open for any new opportunities. You can contact me anytime, Whether you have a question or just
-        want to say hi.
+        want to say hi. <br/><br/>
+        ibrahim.mohamed01@eng-st.cu.edu.eg <br/>
+        +20 114 7719 9975
+
       </p>
       <div className="pt-4">
         <a href="mailto:ibrahim.mohamed01@eng-st.cu.edu.eg" target={"_blank"} rel="noreferrer">
