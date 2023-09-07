@@ -8,7 +8,7 @@ import ArrowIcon from "../Icons/ArrowIcon";
 const skills: string[] = [
     'JavaScript',
     'TypeScript',
-    'C++',
+    'C/C++',
     'C Language',
     'Python',
     'React.js',
@@ -18,10 +18,10 @@ const skills: string[] = [
     "Express.js",
     "MongoDB",
     "SQL",
-    "Linux (Ubuntu)",
+    "Linux (Ubuntu)",    "Git/GitHub",
+
     "Docker",
     "Kubernetes",
-    "Git/GitHub",
 ];
 
 const concepts: string[] = [
@@ -51,7 +51,10 @@ const Item = styled(Paper)(({theme}) => ({
 
 const MySkills = () => {
     return (
-        <div className="flex flex-col space-y-7 w-100 h-100 items-center bg-AAprimary" style={{marginTop: "7rem"}}>
+        <div
+            id="MySkillsSection"
+            className="flex flex-col space-y-7 w-100 h-100 items-center bg-AAprimary"
+            style={{marginTop: "7rem"}}>
 
             <section className="flex flex-row items-center">
                 <div className="flex flex-row items-center">

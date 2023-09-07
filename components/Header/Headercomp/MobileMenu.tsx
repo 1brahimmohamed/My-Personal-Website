@@ -74,6 +74,26 @@ const MobileMenu = props => {
             </span>
           </Link>
 
+
+          <Link
+              to="MySkillsSection"
+              spy={true}
+              smooth={true}
+              offset={-20}
+              duration={200}
+              onClick={() => closeMenu()}
+              className="flex flex-col text-center space-y-2"
+          >
+            <span className="text-AAsecondary text-xs font-mono">04.</span>
+            <span
+                className="text-white font-Text2 text-sm sm:text-base
+             hover:text-AAsecondary hover:cursor-pointer duration-300"
+            >
+              Skills
+            </span>
+          </Link>
+
+
           <Link
               to="SomethingIveBuiltSection"
               spy={true}
@@ -83,7 +103,7 @@ const MobileMenu = props => {
               onClick={() => closeMenu()}
               className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-xs font-mono">04.</span>
+            <span className="text-AAsecondary text-xs font-mono">05.</span>
             <span
                 className="text-white font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
@@ -103,7 +123,7 @@ const MobileMenu = props => {
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-xs font-mono">05.</span>
+            <span className="text-AAsecondary text-xs font-mono">06.</span>
             <span
               className="text-white font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
