@@ -1,13 +1,8 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import SiemensEDA from "./Descriptions/SiemensEDA";
-import FGS from "./Descriptions/FGS";
-import Canon from "./Descriptions/Canon";
-import SiemensHealth from "./Descriptions/SiemensHealth";
 import CURT from "./Descriptions/CURT";
 import IEEECUSB from "./Descriptions/IEEECUSB";
-import Neureveal from "./Descriptions/Neureveal";
 import IEEEYP from "./Descriptions/IEEE YP";
 import IEEEMBS from "./Descriptions/IEEEEMBS";
 import CUFESC from "./Descriptions/CUFESC";
@@ -94,7 +89,7 @@ const CompaniesBar = props => {
 
   return (
     <div
-      id="WhereIhaveWorkedSection"
+      id="WhereIHaveVolunteered"
       className=" flex flex-col md:flex-row  w-screen lg:w-auto
       overflow-auto scrollbar-hide md:overflow-hidden pb-4 md:pb-0 justify-start
        sm:justify-center items-start sm:items-center"

@@ -15,9 +15,10 @@ import "aos/dist/aos.css";
 import Head from "next/head";
 import ScreenSizeDetector from "../components/CustomComponents/ScreenSizeDetector";
 import WhereIHaveVolunteered from "../components/Home/WhereIHaveWorked/WhereIHaveVoluntered";
+import PreLoader from "../components/Preloader/Preloader";
 export default function Home() {
-  const [ShowElement, setShowElement] = useState(false);
-  const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(true);
+  // const [ShowElement, setShowElement] = useState(false);
+  // const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(true);
   const [ShowMe, setShowMe] = useState(false);
   // context Variable to clearInterval
   const context = useContext(AppContext);
@@ -35,20 +36,20 @@ export default function Home() {
       window.removeEventListener("resize", context.sharedState.typing.eventInputLostFocus);
       document.removeEventListener("keydown", context.sharedState.typing.keyboardEvent);
     }
-    setTimeout(() => {
-      setShowElement(true);
-    }, 4500);
+    // setTimeout(() => {
+    //   setShowElement(true);
+    // }, 4500);
 
-    setTimeout(() => {
-      setShowThisCantBeReached(false);
-    }, 5400);
+    // setTimeout(() => {
+    //   setShowThisCantBeReached(false);
+    // }, 5400);
     // ? INFORMATIONAL next function will show the component after changing the state of ShowMe
     setTimeout(() => {
-      setShowElement(false);
+      // setShowElement(false);
       setShowMe(true);
       context.sharedState.finishedLoading = true;
       context.setSharedState(context.sharedState);
-    }, 10400);
+    }, 1);
   }, [context, context.sharedState]);
 
   useEffect(() => {
@@ -84,8 +85,10 @@ export default function Home() {
         <meta name="twitter:image" content={meta.image} />
       </Head>
       <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full ">
-        {context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>}
-        {context.sharedState.finishedLoading ? <></> : ShowElement ? <Startup /> : <></>}
+
+        <PreLoader />
+        {/*{context.sharedState.finishedLoading ? <></> : ShowThisCantBeReached ? <ThisCantBeReached /> : <></>}*/}
+        {/*{context.sharedState.finishedLoading ? <></> : ShowElement ? <Startup /> : <></>}*/}
         <Header finishedLoading={context.sharedState.finishedLoading} sectionsRef={homeRef} />
         <MyName finishedLoading={context.sharedState.finishedLoading} />
         <SocialMediaArround finishedLoading={context.sharedState.finishedLoading} />

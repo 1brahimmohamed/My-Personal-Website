@@ -18,7 +18,7 @@ const MobileMenu = props => {
           className="w-1/4 h-full backdrop-blur-sm bg-MobileNavColor/30 hover:cursor-pointer"
         ></div>
         <div
-          className="w-3/4 h-full bg-MobileNavBarColor flex flex-col 
+          className="w-3/4 h-full bg-MobileNavBarColor flex flex-col
         justify-center items-center space-y-8 font-sans"
         >
           <Link
@@ -55,11 +55,12 @@ const MobileMenu = props => {
               Experience
             </span>
           </Link>
+
           <Link
-            to="SomethingIveBuiltSection"
+            to="WhereIHaveVolunteered"
             spy={true}
             smooth={true}
-            offset={100}
+            offset={-550}
             duration={200}
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
@@ -69,9 +70,30 @@ const MobileMenu = props => {
               className="text-white font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
             >
+              Volunteering
+            </span>
+          </Link>
+
+          <Link
+              to="SomethingIveBuiltSection"
+              spy={true}
+              smooth={true}
+              offset={100}
+              duration={200}
+              onClick={() => closeMenu()}
+              className="flex flex-col text-center space-y-2"
+          >
+            <span className="text-AAsecondary text-xs font-mono">04.</span>
+            <span
+                className="text-white font-Text2 text-sm sm:text-base
+             hover:text-AAsecondary hover:cursor-pointer duration-300"
+            >
               Work
             </span>
           </Link>
+
+
+
           <Link
             to="GetInTouchSection"
             spy={true}
@@ -81,7 +103,7 @@ const MobileMenu = props => {
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-xs font-mono">04.</span>
+            <span className="text-AAsecondary text-xs font-mono">05.</span>
             <span
               className="text-white font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
@@ -89,10 +111,10 @@ const MobileMenu = props => {
               Contact
             </span>
           </Link>
-          <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
+          <a href={"https://drive.google.com/file/d/1iPiK5gG-WRwngw5hAzrh4-o71bahiLUK/view?usp=sharing"} target={"_blank"} rel="noreferrer">
             <button
               className="rounded border font-Text2  border-AAsecondary
-           hover:bg-ResumeButtonHover py-2 sm:py-4 px-5 sm:px-10 text-xs text-AAsecondary"
+           hover:bg-ResumeButtonHover py-2 sm:py-4 px-5 sm:px-10 text-xs text-AAsecondary hover:bg-ResumeButtonHover"
             >
               Resume
             </button>
