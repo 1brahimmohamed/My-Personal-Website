@@ -363,10 +363,6 @@ export default function SomethingIveBuilt() {
                                 <Img src={"/filters.png"} alt={"Project Screen shot"} className={`w-full h-full `}/>
                             </div>
                         </div>
-                        <div className="absolute w-full   rounded  ml-4 mt-2  text-end pr-8">
-                            <div className="w-full"></div>
-                            <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In initiation...</span>
-                        </div>
                         <div
                             className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
