@@ -9,7 +9,7 @@ const skills: string[] = [
     'JavaScript',
     'TypeScript',
     'C/C++',
-    'C Language',
+    'Java',
     'Python',
     'React.js',
     "UI/UX",
