@@ -37,9 +37,9 @@ export default function CUFESC() {
               className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
               // set text size on style attribute
               style={{ fontSize: "0.6rem" }}
-              onClick={() => window.open("https://www.ieeecusb.org", "_blank")}
+              onClick={() => window.open("https://www.cufestudentclub.com/", "_blank")}
           >
-            www.ieeecusb.org
+            www.cufestudentclub.com/
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
