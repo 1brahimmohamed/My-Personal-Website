@@ -39,7 +39,7 @@ export default function CUFESC() {
               style={{ fontSize: "0.6rem" }}
               onClick={() => window.open("https://www.cufestudentclub.com/", "_blank")}
           >
-            www.cufestudentclub.com/
+            www.cufestudentclub.com
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
