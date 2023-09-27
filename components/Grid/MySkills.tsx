@@ -18,7 +18,7 @@ const skills: string[] = [
     "Express.js",
     "MongoDB",
     "SQL",
-    "Linux (Ubuntu)",    
+    "Linux (Ubuntu)",
     "Git/GitHub",
     "Docker",
     "Kubernetes",
@@ -33,6 +33,10 @@ const concepts: string[] = [
     'RESTful APIs',
     'Agile Methodologies',
     'DevOps',
+    "Autonomous Driving",
+    'Digital Signal Processing',
+    "Medical Image Analysis",
+    "Machine Learning",
 ]
 
 
