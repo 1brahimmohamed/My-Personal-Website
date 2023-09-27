@@ -18,8 +18,8 @@ const skills: string[] = [
     "Express.js",
     "MongoDB",
     "SQL",
-    "Linux (Ubuntu)",    "Git/GitHub",
-
+    "Linux (Ubuntu)",    
+    "Git/GitHub",
     "Docker",
     "Kubernetes",
 ];

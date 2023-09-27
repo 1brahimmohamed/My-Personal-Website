@@ -57,7 +57,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
           to excel in the creation of <br className="2xl:block hidden"/> outstanding medical digital experiences.
           My current focus is on  <span className="text-AAsecondary">Software Medical Viewers </span>
           where I actively engage in developing and designing immersive
-          <span className="text-AAsecondary"> Full Stack Web Applications</span>.<br className="2xl:block hidden"/>This involves working with{" "}
+          <span className="text-AAsecondary"> Full Stack Web Applications</span>.<br className="2xl:block hidden"/> This involves working with{" "}
         <span className="text-AAsecondary">Microservices & Deployment </span>  on {" "}
         <span className="text-AAsecondary">Containers</span>.
         {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
