@@ -115,10 +115,10 @@ const MobileMenu = props => {
 
 
           <Link
-            to="GetInTouchSection"
+            to="GallerySection"
             spy={true}
             smooth={true}
-            offset={100}
+            offset={-15}
             duration={200}
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
@@ -128,9 +128,30 @@ const MobileMenu = props => {
               className="text-white font-Text2 text-sm sm:text-base
              hover:text-AAsecondary hover:cursor-pointer duration-300"
             >
+              Special Moments
+            </span>
+          </Link>
+
+          <Link
+              to="GetInTouchSection"
+              spy={true}
+              smooth={true}
+              offset={100}
+              duration={200}
+              onClick={() => closeMenu()}
+              className="flex flex-col text-center space-y-2"
+          >
+            <span className="text-AAsecondary text-xs font-mono">07.</span>
+            <span
+                className="text-white font-Text2 text-sm sm:text-base
+             hover:text-AAsecondary hover:cursor-pointer duration-300"
+            >
               Contact
             </span>
           </Link>
+
+
+
           <a href={"https://drive.google.com/file/d/1iPiK5gG-WRwngw5hAzrh4-o71bahiLUK/view?usp=sharing"} target={"_blank"} rel="noreferrer">
             <button
               className="rounded border font-Text2  border-AAsecondary

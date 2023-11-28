@@ -35,6 +35,11 @@ const images = [
          & Head of the Egyptian Engineers Syndicate and faculty professors`,
     },
     {
+        original: "/gallery/nasyp_egy.webp",
+        thumbnail: "/gallery/thumbnails/nasyp_egy.jpg",
+        description: "IEEE R8 NASYP 2023 Closing Ceremony: with my fellows at IEEE Cairo University SB",
+    },
+    {
         original: "/gallery/nasyp_single.webp",
         thumbnail: "/gallery/thumbnails/nasyp_single.jpg",
         description: "Speech at IEEE R8 NASYP 2023 as the branding director of the congress",
