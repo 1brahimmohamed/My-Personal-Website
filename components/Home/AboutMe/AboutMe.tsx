@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["React", "JavaScript (ES6+)", "Docker", "Kubernetes", "Qt C++"],
-    ["Node.js", "TypeScript", "Pytorch", "PyQt6", "Dotnet"],
+    ["React", "Docker", "Kubernetes", "Qt C++"],
+    ["Node.js", "TypeScript", "Pytorch", "PyQt6"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -29,15 +29,15 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Ibrahim, I have a passion for technology specially software engineering, which is why I chose to <span className="text-AAsecondary"> minor in software &
-                data science engineering</span> through Systems & Biomedical Engineering Department. where I study both software
+                Hello! My name is Ibrahim, I have a passion for technology specially software engineering, which is why I chose to <span className="text-AAsecondary"> major in software
+                engineering</span> through Systems & Biomedical Engineering Department. where I study both software
                 and hardware engineering.
               </span>
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
                 Since pursuing my engineering degree, my career has taken me through diverse industries, allowing me to
-                refine my expertise in web development, desktop, devops, embedded software and medical hardware.
+                refine my expertise in web development, desktop, DevOps, embedded software and medical hardware.
                 <br /><br/>
                 In addition to my technical skills, I am committed to continuous learning and staying up-to-date with the latest industry trends
                 {/*In the realm of{" "}*/}

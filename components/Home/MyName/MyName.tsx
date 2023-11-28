@@ -41,7 +41,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        I solve healthcare problems with the power of technology.
+          Empowering Healthcare through Software Engineering Excellence
       </motion.h2>
 
       <motion.h3
@@ -53,11 +53,10 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I&apos;m a <span className="text-AAsecondary">Software Engineer</span>, I leverage my robust software engineering skills
-          to excel in the creation of <br className="2xl:block hidden"/> outstanding medical digital experiences.
-          My current focus is on  <span className="text-AAsecondary">Software Medical Viewers </span>
-          where I actively engage in developing and designing immersive
-          <span className="text-AAsecondary"> Full Stack Web Applications</span>.<br className="2xl:block hidden"/> This involves working with{" "}
+        I&apos;m a <span className="text-AAsecondary"> Systems & Biomedical Engineering Student</span>, I leverage my robust software engineering skills
+          to excel <span className="text-AAsecondary">but not limited</span> to the creation of <br className="2xl:block hidden"/> outstanding medical digital experiences.
+          My current foucs is on Healthcare Software Systems, Empirical Software Engineering, Software Quality Measurement, Human-Computer Interaction & Autonomous driving.
+          I develop <span className="text-AAsecondary"> Full Stack Web Applications</span>.<br className="2xl:block hidden"/> This involves working with{" "}
         <span className="text-AAsecondary">Microservices & Deployment </span>  on {" "}
         <span className="text-AAsecondary">Containers</span>.
         {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the

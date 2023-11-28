@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../components/Home/Gallary/gallery.css";
 import { Analytics } from '@vercel/analytics/react';
 import AppContext from "../components/AppContextFolder/AppContext";
 import { useRef, useState } from "react";

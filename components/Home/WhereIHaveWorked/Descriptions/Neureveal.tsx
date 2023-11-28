@@ -18,12 +18,12 @@ export default function Neureveal() {
       keywords: ["MLOps","pipeline design", "training", "runtime performance"],
     },
     {
-      text: "Developing user interface components and implementing them following well-known React.js workflows.",
-      keywords: ["React.js", "user interface"],
+      text: "Contributed to the development of the NeurevealViewer using tools like React, Tailwind CSS following the international healthcare standards",
+      keywords: ["React.js", "user interface", "Tailwind CSS", "healthcare standards"],
     },
     {
-      text: "Ensure that these components and the overall application are robust and easy to maintain.",
-      keywords: ["maintain"],
+      text: "Played a pivotal role in the creation and implementation of a robust user management system for hospitals and radiology centres.",
+      keywords: ["user management"],
     }
   ];
 
@@ -36,7 +36,7 @@ export default function Neureveal() {
             AI Software Engineer <span className="text-AAsecondary">Intern</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Aug 2023 - Present</span>
+          <span className="font-mono text-xs text-gray-500">Aug 2023 - Oct 2023</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             style={{ fontSize: "0.6rem" }}

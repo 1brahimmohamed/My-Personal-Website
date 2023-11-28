@@ -23,10 +23,10 @@ export default function Canon() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Xray & Ultrasound Engineering <span className="text-AAsecondary">Intern</span>
+            Hardware Engineering <span className="text-AAsecondary">Intern</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">July - July 2022</span>
+          <span className="font-mono text-xs text-gray-500">July - Aug 2022</span>
           <span
               className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
               // set text size on style attribute

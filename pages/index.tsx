@@ -16,6 +16,7 @@ import ScreenSizeDetector from "../components/CustomComponents/ScreenSizeDetecto
 import WhereIHaveVolunteered from "../components/Home/WhereIHaveWorked/WhereIHaveVoluntered";
 import PreLoader from "../components/Preloader/Preloader";
 import MySkills from "../components/Grid/MySkills";
+import Gallery from "../components/Home/Gallary/Gallery";
 export default function Home() {
   // const [ShowElement, setShowElement] = useState(false);
   // const [ShowThisCantBeReached, setShowThisCantBeReached] = useState(true);
@@ -100,8 +101,10 @@ export default function Home() {
         {context.sharedState.finishedLoading ? <MySkills /> : <></>}
 
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
-        {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
 
+        {context.sharedState.finishedLoading ? <Gallery /> : <></>}
+
+        {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
 
         {context.sharedState.finishedLoading ? (
           <Footer githubUrl={"https://github.com/1brahimmohamed"} hideSocialsInDesktop={true} />

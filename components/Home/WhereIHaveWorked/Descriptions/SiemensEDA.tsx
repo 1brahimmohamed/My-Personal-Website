@@ -9,7 +9,7 @@ export default function SiemensEDA() {
       keywords: ["CPU architecture", "compilation process", "interrupts"],
     },
     {
-      text: "Dealing with different debugging tools.",
+      text: "Dealing with different embedded software debugging tools.",
       keywords: ["debugging tools"],
     },
     {
@@ -28,10 +28,10 @@ export default function SiemensEDA() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Embedded Software Engineering <span className="text-AAsecondary">Intern</span>
+            Embedded Software Engineering <span className="text-AAsecondary">Trainee</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Jul - Sep 2022</span>
+          <span className="font-mono text-xs text-gray-500">Aug - Oct 2022</span>
           <span className="font-mono text-xs text-AAsecondary hover:cursor-pointer" style={{ fontSize: "0.6rem" }}
            // set on click to open the website
            onClick={() => window.open("https://eda.sw.siemens.com/en-US/", "_blank")}

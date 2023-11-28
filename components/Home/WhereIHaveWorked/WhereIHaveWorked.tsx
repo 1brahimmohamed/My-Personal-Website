@@ -5,9 +5,9 @@ import SiemensEDA from "./Descriptions/SiemensEDA";
 import FGS from "./Descriptions/FGS";
 import Canon from "./Descriptions/Canon";
 import SiemensHealth from "./Descriptions/SiemensHealth";
-import CURT from "./Descriptions/CURT";
-import IEEECUSB from "./Descriptions/IEEECUSB";
 import Neureveal from "./Descriptions/Neureveal";
+import SiemensDISW from "./Descriptions/SiemensDISW";
+
 export default function WhereIHaveWorked() {
   const barRef = React.useRef<HTMLDivElement>(null);
   // ? INFORMATIONAL control the green position using px,
@@ -15,9 +15,11 @@ export default function WhereIHaveWorked() {
   const GetDescription = () => {
     switch (DescriptionJob) {
       default:
+        return <SiemensDISW />;
+      case "Neureveal Inc.":
         return <Neureveal />;
-      case "Siemens Digital Industries Software":
-        return <SiemensEDA />;
+      case "Siemens EDA":
+        return <SiemensEDA/>;
       case "First Gulf Solutions":
         return <FGS />;
       case "Canon Medical Systems":
@@ -110,37 +112,46 @@ const CompaniesBar = props => {
       {/* // ? Companies name as buttons */}
       <div className="flex flex-col md:order-2 order-1 space-y-1 pl-8 md:pl-0 ">
         <div className="flex flex-row md:flex-col">
-        <CompanyButton
-            ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="Neureveal Inc."
-            BarPosition={-16}
-            BarAvobePosition={1}
-            DescriptionJob="Neureveal Inc."
-            CompanyNameBackgroundColorGreen={[true,false, false, false, false, false]}
-            setDescriptionJob={props.setDescriptionJob}
-          />
           <CompanyButton
+              ButtonOrderOfcompanyNameBackgroundColorGreen={0}
+              CompanyName="Siemens DISW"
+              BarPosition={13}
+              BarAvobePosition={1}
+              DescriptionJob="Siemens DISW"
+              CompanyNameBackgroundColorGreen={[true, false, false, false, false, ]}
+              setDescriptionJob={props.setDescriptionJob}
+          />
+        <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="Siemens Digital Industries Software"
-            BarPosition={50}
+            CompanyName="Neureveal Inc."
+            BarPosition={57}
             BarAvobePosition={129}
-            DescriptionJob="Siemens Digital Industries Software"
-            CompanyNameBackgroundColorGreen={[false,true, false, false, false, false]}
+            DescriptionJob="Neureveal Inc."
+            CompanyNameBackgroundColorGreen={[false,true, false, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={2}
-            CompanyName="First Gulf Solutions"
-            BarPosition={120}
+            CompanyName="Siemens EDA"
+            BarPosition={102}
             BarAvobePosition={257}
-            DescriptionJob="First Gulf Solutions"
+            DescriptionJob="Siemens EDA"
             CompanyNameBackgroundColorGreen={[false,false, true, false, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
+          {/*<CompanyButton*/}
+          {/*  ButtonOrderOfcompanyNameBackgroundColorGreen={2}*/}
+          {/*  CompanyName="First Gulf Solutions"*/}
+          {/*  BarPosition={120}*/}
+          {/*  BarAvobePosition={257}*/}
+          {/*  DescriptionJob="First Gulf Solutions"*/}
+          {/*  CompanyNameBackgroundColorGreen={[false,false, true, false, false]}*/}
+          {/*  setDescriptionJob={props.setDescriptionJob}*/}
+          {/*/>*/}
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
             CompanyName="Canon Medical Systems"
-            BarPosition={185}
+            BarPosition={155}
             BarAvobePosition={385}
             DescriptionJob="Canon Medical Systems"
             CompanyNameBackgroundColorGreen={[false, false, false, true, false ]}
@@ -149,7 +160,7 @@ const CompaniesBar = props => {
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={4}
             CompanyName="Siemens Healthineers"
-            BarPosition={250}
+            BarPosition={220}
             BarAvobePosition={513}
             DescriptionJob="Siemens Healthineers"
             CompanyNameBackgroundColorGreen={[false, false, false, false, true ]}

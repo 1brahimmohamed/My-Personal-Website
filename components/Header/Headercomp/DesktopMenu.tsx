@@ -128,6 +128,30 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
 
             </motion.div>
 
+
+            <motion.span
+                initial={{
+                    y: -40,
+                    opacity: 0,
+                }}
+                animate={{
+                    y: 0,
+                    opacity: 1,
+                }}
+                transition={{
+                    type: "spring",
+                    duration: props.finishedLoading ? 0 : 1.2,
+                    delay: props.finishedLoading ? 0 : 5,
+                }}
+                className="text-AAsecondary"
+            >
+                <ReactScrollLink to="GallerySection" spy={true} smooth={true} offset={-100} duration={200}>
+                    &gt; 06. <span
+                    className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Special Moments</span>
+                </ReactScrollLink>
+            </motion.span>
+
+
             <motion.span
                 initial={{
                     y: -40,
@@ -145,7 +169,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
                 className="text-AAsecondary"
             >
                 <ReactScrollLink to="GetInTouchSection" spy={true} smooth={true} offset={-100} duration={200}>
-                    &gt; 06. <span
+                    &gt; 07. <span
                     className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Contact</span>
                 </ReactScrollLink>
             </motion.span>
