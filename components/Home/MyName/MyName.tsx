@@ -54,9 +54,9 @@ export default function MyName(props: { finishedLoading: boolean }) {
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
         I&apos;m a <span className="text-AAsecondary"> Systems & Biomedical Engineering Student</span>, I leverage my robust software engineering skills
-          to excel <span className="text-AAsecondary">but not limited</span> to the creation of <br className="2xl:block hidden"/> outstanding medical digital experiences.
+          to excel <span className="text-AAsecondary">but not limited</span> to the creation of outstanding medical digital experiences.
           My current foucs is on Healthcare Software Systems, Empirical Software Engineering, Software Quality Measurement, Human-Computer Interaction & Autonomous driving.
-          I develop <span className="text-AAsecondary"> Full Stack Web Applications</span>.<br className="2xl:block hidden"/> This involves working with{" "}
+          I develop <span className="text-AAsecondary"> Full Stack Web Applications</span>. This involves working with{" "}
         <span className="text-AAsecondary">Microservices & Deployment </span>  on {" "}
         <span className="text-AAsecondary">Containers</span>.
       </motion.h3>
