@@ -59,8 +59,6 @@ export default function MyName(props: { finishedLoading: boolean }) {
           I develop <span className="text-AAsecondary"> Full Stack Web Applications</span>.<br className="2xl:block hidden"/> This involves working with{" "}
         <span className="text-AAsecondary">Microservices & Deployment </span>  on {" "}
         <span className="text-AAsecondary">Containers</span>.
-        {/* <br className="2xl:block hidden" />creating and deploying them, as well as implementing the
-        front-end components to enable seamless user interactions. */}
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}

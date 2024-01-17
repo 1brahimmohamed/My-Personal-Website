@@ -14,7 +14,6 @@ const IconsData = [
   { href: "https://github.com/1brahimmohamed", Icon: GithubIcon },
   { href: "https://www.linkedin.com/in/1brahimmohamed/", Icon: LinkedinIcon },
   { href: "https://www.instagram.com/1brahimmohamed/", Icon: InstagramIcon },
-  // { href: "https://www.youtube.com/@abdellatif_anaflous", Icon: YoutubeIcon },
 ];
 
 export default function Footer(props: { githubUrl: string; hideSocialsInDesktop: boolean }) {
