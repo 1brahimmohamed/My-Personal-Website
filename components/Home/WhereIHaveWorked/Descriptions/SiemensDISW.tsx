@@ -5,12 +5,32 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function SiemensDISW() {
   const tasks = [
     {
-      text: "Write effective code, using appropriate data structures and algorithms on the professional SW development level.",
-      keywords: ["effective", "professional"],
+      text: "Effective coding using best practices (Clean Code / Error Handling / TDD, Unit test",
+      keywords: ["effective", "best"],
     },
     {
-      text: "Developing Industrial web applications using Angular & Spring Boot with the use of advanced design patterns & architectures.",
-      keywords: ["Angular", "Spring Boot", "design patterns"],
+      text: "Code Reviews / Debugging / Logging / Memory Performance & Problems / Static & Shared Libs",
+      keywords: [],
+    },
+    {
+      text: "Data Structures efficient usage / Advanced Algorithms",
+      keywords: ["efficient"],
+    },
+    {
+      text: "Working Under Linux / Version Management / Build Systems",
+      keywords: ["Linux"],
+    },
+    {
+      text: "System Design/  Software Development Life Cycle / Software Models / Software Documentation",
+      keywords: ["Linux"],
+    },
+    {
+      text: "Sneak Peak on Spring Boot / Spring Boot Security / Microservices with Spring Boot",
+      keywords: ["Spring"],
+    },
+    {
+      text: "Introduction to Angular Framework",
+      keywords: ["Angular"],
     },
   ];
 

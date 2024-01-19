@@ -10,7 +10,7 @@ export default function Neureveal() {
     // },
     {
       text: "Research and implement appropriate machine learning algorithms for computer vision application such as object" +
-          " detection, key point detection, object segmentation & anomaly detection.",
+          " detection, key point detection, object segmentation & anomaly detection for prostate cancer diagnoses using MR images",
       keywords: ["Machine Learning", "computer vision", "object detection", "key point detection", "object segmentation", "anomaly detection"],
     },
     {
@@ -18,7 +18,7 @@ export default function Neureveal() {
       keywords: ["MLOps","pipeline design", "training", "runtime performance"],
     },
     {
-      text: "Contributed to the development of the NeurevealViewer using tools like React, Tailwind CSS following the international healthcare standards",
+      text: "Contributed to the development of the Neureveal Viewer using React, Tailwind CSS following the international healthcare standards",
       keywords: ["React.js", "user interface", "Tailwind CSS", "healthcare standards"],
     },
     {
